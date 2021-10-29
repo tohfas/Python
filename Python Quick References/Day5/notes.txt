@@ -1,0 +1,81 @@
+exception handling
+------------------------
+how to raise an exception manually - by two keywords
+raise - raises an exception without checking any condition
+assert - checks the condition and raises an exception
+       - we can give conditional messages with assert 
+	   - it is better than raise
+	   - raises an exception (AssertionError) when the condition is false
+	   - do not raises an exception when the condition is true
+	   
+# take an input from the user credit card number and check following things
+# 1. card number should be of exact 16 digits
+# 2. card number should not contain small case letters
+# 3. card number should not contain upper case letters
+# 4. card number should not contain special chars
+# 5. card number should not contain spaced
+# 6. card number should contain only digits
+# 7. card number should not start with 0
+# 8. Sum of digits of card number should be even
+# use exception handling while writing code
+
+---------------------------------------------------------------
+Object Oriented programming
+---------------------------------------------------------------
+deal with real time entities as classes
+car - as a class 
+    - characterstics of a car like number of tyres, color of seat, color of car, number of mirrors etc are called attributes
+	- attributes are variables/ methods(functions) defined in a class
+	- class is also called as blueprint
+	- from the same class we can have multiple objects 
+	- object is an instance of a class
+	- all the objects work independently on different memory addresses
+	- object variables are prefixed with self. and they are attached to an object
+	- whereever this object will go the object variable will also go
+	
+write a program to take radius as input in a constructor
+area method should print area 
+perimeter method should return perimeter to main
+
+
+write a program to take input in constructor from the user names in a list till user enters None
+in another method check the name of maximum length (having max number of characters)
+in another method find the ASCII value of first and last letter of name
+
+public - accessible in class as well as inherited classes and also in main
+protected - accessible in class as well as inherited classes but not in main
+          - in python we can access protected variables in main for debugging purposes
+		  - they are prefixed with single underscore
+private - accessible only in a class and not in main as well not in inherited classes. 
+          they are hidden from the main program
+		  we can access them in main for debugging purposes.
+		  they are prefixed with double underscore __
+		  
+inheritance means inheriting the properties of base class in derived class
+if the method name is same in base and derived class, derived class gets the priority
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
