@@ -1,0 +1,60 @@
+functions
+-----------------------------
+are peice of code that can be reused again and again.
+to make our code more modular, readable and organised
+it is easy to debug the code if we define functions
+
+def is a key word for defining functions
+
+
+Question :- write a program of guessing game. create function in which you need to check 
+            if a number entered by user is odd and between 2 and 20 then you the game otherwise you get max 3 chances 
+			to win the game. At any point of time you give right number, you win and program should not ask another number
+			do not return success or failure from the function, instead print success or failure in main.
+			
+Question :- write a menu driven program to find sum, multiply, divide, subtract
+            menu should be displayed what operation you want, invoke the specific method sum, multiply, divide, subtract
+			and find answers. if user says to recompute as two numbers again and show menu again for calculations
+			if user say terminate, it should terminate the program
+			
+		
+lambda functions
+-----------------
+they are also called as anonomous functions
+they are made to achieve small tasks
+the return type of a lambda function is a function
+we cannot have control flow statements like if else while for etc in lambda functions
+the are single line functions. we cannot write in multiple lines
+
+syntax
+
+fun_name = lambda input_arguments : return_value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
