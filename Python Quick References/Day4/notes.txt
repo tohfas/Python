@@ -1,0 +1,55 @@
+call by reference
+-----------------------
+whenever we pass lists/tuples and dictionaries to a function they are passed by reference
+their memory address get passed
+
+sort - is used to sort the values of a list there and then in the original list. cannot be used with tuples
+sorted() - returns the sorted values in a form of list. it can be used both in case of lists and tuples.
+
+question:- create a function to take input from the user marks obtained in maths.
+           ask user how many marks he wants to evaluate and take those many marks in list
+		   return this list to main
+		   
+		   create another function to find mean marks of maths for the class
+		   create another function to find lowest and the highest marks
+		   create another function to find standard deviation in marks
+		   create another function to find mode of marks 
+		   
+arbitrary functions
+-----------------------
+we can take anything or everything
+
+exception handling
+-------------------------------
+error that python gives whenever something went wrong. let it be from user input or user action or may be system resources.
+every exception has 2 parts 
+1. name of an exception
+2. description of an exception
+
+
+in python we have 4 blocks to handle exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
