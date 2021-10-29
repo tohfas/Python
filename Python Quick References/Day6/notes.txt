@@ -1,0 +1,61 @@
+pandas -> for data analytics
+       -> read and write data from any of the external sources
+	   
+two data structures 
+1. series - contains single dimentional data like lists but they are more flexible as compared to lists
+          - in series we can define our own user defined index
+2. data frames - contains two dimentional data in form of rows and columns
+                 every row has unique row id called index starting from 0
+				 every column has unique name starting from 0
+				 index determines which values will go in series
+				 
+in pandas missing values are called NaN -> not a applicable value or missing value
+if you create data frame from dictionary, column headings will be keys of dictionary
+
+we can read data from any of the external sources like csv file or excel sheet
+there are 3 basic datatypes of any column in data frame
+1. integer - if all int values are there column is read out as int, if there is missing value, it will read out as 
+             float 
+2. float - if there are decimal values in a column it will read out as float
+3. object - if column has strings that column is read out as an object
+
+3 important things that you must do when you read data in data frame
+-------------------------------------------------------------------
+1. df.types - to see data types of each column
+2. df.columns - may be at the time of reading column has leading or trailing spaces.
+3. df.shape - tell you number rows Vs no of column
+
+how to filter the data from data frame
+-----------------------------------------
+df['col name'] -> we give [] when column name has some spaces
+df.col_name -> we give when column name has no spaces
+
+df[(condition1) & (condition2) | (condition3)] -> all the conditions have to be in ()
+
+from the dataframe if you want to filter multiple columns give [[  ]]
+
+
+Numpy - is a library for numerical analysis  
+      - if we want to solve any kind of mathematical or statistical problems we use numpy
+	  - it has got concept of arrays 
+	  
+2x+3y-4z=10
+4x+6y-8z=20
+4x-7y+8z=30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
