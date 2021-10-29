@@ -1,0 +1,174 @@
+# take any number from the user and print its table
+# if user enters 3, print
+
+3 X 1 = 3
+3 X 2 = 6
+3 X 3 = 9
+..
+..
+3 X 10 = 30
+------------------------------------------------------------------------
+lists - storage containers that contains heterogeneous elements and they stored 
+sequentially in the memory
+it starts from 0th index
+denoted by []
+lists are mutable in nature, you can modify the contents of a list once defined
+do not create variable with the name list as list is a keyword
+
+there are 4 ways to add elements to a list
+===========================================
+append() - appends only single value
+extend() - extend with multiple values
+insert() - inserts at specific location
+using + symbol - concatenates one with list with another
+
+there are 3 ways to delete elements from a list
+==============================================
+pop() - deletes the last value and return it on the screen
+pop(loc) - deletes the value at that location and return it on the screen
+del list1[loc] - deletes the value at that location
+list1.remove(value) - deletes that value first occurance
+
+
+take an input from the user any number infinitely till user enters -999
+keep on appending elements in the list. once list is created create even and odd two lists containing even and odd elements
+find the sum of all the elements of a list
+find the mean of all the elements of a list
+
+range function - returns a range of values in a form of list in ver 2.x
+               - in ver 3.x it returns an object, we need to typecast to list to see the contents
+			   
+place=['Delhi','Mumbai','Chennai','Jaipur']
+attract=['Red Fort','Gateway of India','Marina Beach','Ameer Fort']
+upPlace=""
+
+if len(place)==len(attract):
+	check='y'
+	match="false"
+	while check=='y':
+		placeSearch=str(input("Enter place"))
+		for x in range(len(place)):
+			if place[x].lower()==placeSearch.lower():
+				match="true"
+				for y in range(len(attract[x])):
+					if attract[x][y].isupper():
+						upPlace= upPlace+attract[x][y]
+						print(upPlace)
+
+		if match=="false":
+			print("Place not found")
+		check=input("want to enter more y/n")
+
+traversal of lists / strings/ tuples
+------------------------------------------
+list1[m:n] - start from mth index and go till n-1 index
+list1[m:] - start from mth index and go till end
+list1[:n] - start from 0th index  and go till n-1 index
+list1[m:n:k] - start from mth index and go till n-1 index with the jump of k-1 values
+list1[::-1] - reverse a list
+
+tuples - storage containers similar to lists but they are immutable, means once defined we cannot change the contents 
+of a tuples
+denoted by ()
+
+for fetching the elements from lists tuples and strings we use []
+string "" or ''
+lists []
+tuples ()
+dictionary {}
+
+dictionary
+======================================================
+key value pairs
+keys are unique but values can be duplicated
+keys and values can alphanumeric
+d.keys() - give all keys
+d.values() - give all values
+d.items() - key value pairs
+in clause checks the keys by default
+d.pop(key) - remove key value pair and value will be returned on the screen
+d['new key']=value will add key value pair in a dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
