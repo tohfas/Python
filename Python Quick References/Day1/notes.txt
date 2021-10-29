@@ -1,0 +1,69 @@
+why python is so popular
+-----------------------------
+1. open source - in unix and linux machines python is pre installed
+2. easy in syntax and more like english language
+3. number of lines of code in python is 1/3 the lines of code we write in java or c++
+4. machine learning capabalities - subset of AI  which is all about predictive analysis
+   sklearn - library which is having all the algorithms of machine learning
+   is good for 2 dimentional data - table, spred sheet
+5 because of the major libararies python picked up its importance
+  pandas - for data analytics
+  numpy - for numerical analysis - playing with numbers 
+  matplotlib - for plotting graphs
+  seaborn - for plotting graphs
+  boto3 - connecting to AWS server
+  Tkinter - developing front end applications
+  tensorflow/ Keras - deep learning - subset of ML which is more handy in terms of 3 dimentional data predictions
+  feature selection is automatic in deep learning but in ML it is manual
+  
+  humidity/ rainfall/ temp / farmer age/ ph calls farmer make in a day => independent vars
+  crop yield -> dependent var
+  
+---------------------------------------------------------------------------------------------------------
+Rules to work on python
+---------------------------------------------------------------------------------------------------------
+case sensitive programming language - all keywords like print, while for if else etc are in small case
+we dont have to declare datatypes in python - it automatically understands the datatype
+we cannot write anything anywhere in python. we need to write code from 0th column of editor.
+if we write any block like if else while for etc then give one tab to signnify its body
+there ways of giving comments in python
+-----------------------
+strings can be enlosed in "" or ''
+
+in ver 2.x of python 
+
+input() - takes by default integers and floats
+raw_input() - takes by default strings
+
+in ver 3.x only one function is there i.e input() - which takes strings by default
+major version (2 to 3) compatability is not there in python 
+
+---------------------------------------------------------------------------------------------
+strings can be enlcosed in " " or ' '
+in clause checks the subsring is a part of string or not
+strings are immutable in python - we cannot change the contents of a string once defined.
+but when you assign a new string to the original string, memory address get changed and we can change the whole string
+strings are sequentially stored in memory starting from 0th index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+                                 
