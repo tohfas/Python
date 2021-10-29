@@ -1,0 +1,72 @@
+machine learning
+----------------------
+it also called as predictive analysis
+when we want to predict future based on historical data 
+ML it a subset of AI - artificial intellegence (mimicing human behaviour)
+
+three types of machine learning
+1. Supervised machine learning - where we know the column headings. we have labeled data
+                               - humidity/ rainfall/ temp and crop yield
+							   - humidity/ rainfall/ temp - independent vars
+							   - crop yield - dependent var
+							     eg CY = 3.2* humidty + 1.3* rainfall + 8.9 Temp + 4.5
+							   - Linear Regression
+							   - Logistic Regression
+							   - Decision Trees
+							   - Random Forest
+							   - Naive Bayes classifier
+							   
+2. Unsupervised machine learning - we donot have column headings - data is unlabeled
+                                 - clustering algorithms belongs to unspervised ML
+								 - we find the hidden features in the data and cluster it based on similarities
+								 - KMeans clustering
+								 - CMeans clustering
+								 - Agglomerative clustering
+								 
+3. Reinforcement learning - learning with experience/ slow and gradual learning
+                          - manless car - Tesla
+						  - Pavlov Dog theory - 
+						  
+						  
+Linear Regression
+-------------------------
+is statistical way of finding the relationship between independent and dependent vars
+in a form of straight line
+
+Positive Linear Regression - increase in independent var increases the dependent var and vice vers
+Negative Linear Regression - increase in independent var decreases dependent var and vice versa
+
+we have a library sklearn - which is used for machine learning
+sklearn library has sublibrary datasets which contains historical datasets
+
+boston - housing dataset - 13 independent variables 
+                         - 1 dependent var called price
+		
+	
+	
+you have 1 million rows and 5000 columns
+we save the model on the disk and reuse it to predict again and again - this process is known as pickling
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+						  
+						  
+						  
+						  
